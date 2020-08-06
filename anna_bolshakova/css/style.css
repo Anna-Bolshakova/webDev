@@ -75,27 +75,17 @@ text-transform: none;
 
 .footer{
 height: 200px;
-background-color: #E5E000;
-}
-
-.footer-container{
-
-padding: 70px 80px;
-}
-
-.logo{
-background: url(../pic/logo.png) center no-repeat;
-background-size: cover;
-width: 205px;
-height: 46px;
-
+background: url(../pic/logo.png) center no-repeat #E5E000;
+background-size: 205px 46px;
+background-position: top 70px left 80px;
 }
 
 .footer-text{
 font-family: 'Montserrat', sans-serif;
 color: #FFFFFF;
 text-align: right;
-
+font-size: 50px;
+padding: 70px 80px;
 }
 
 
