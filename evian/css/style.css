@@ -1,0 +1,164 @@
+.page{
+width: 100%;
+max-width: 1440px;
+margin: 0 auto;
+}
+
+.header{
+height: 140px;
+
+}
+
+.header_inner{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 50px 50px;
+
+}
+
+.header_logo{
+font-size: 50px;
+line-height: 57px;
+
+color: #E50043;
+}
+
+.nav{
+font-size: 50px;
+}
+
+.nav_link{
+display: inline-block;
+vertical-align: top;
+margin: auto;
+
+color: #E50043;
+text-decoration: none;
+}
+
+.container_one{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 950px;
+background: url(../pic/logo.jpg) center no-repeat;
+background-size: cover;
+}
+
+.intro_inner{
+text-align: center;
+}
+
+h1{
+font-size: 100px;
+line-height: 115px;
+
+color: #E50043;
+}
+
+.container_two{
+height: 580px;
+display: flex;
+}
+
+.section_inner{
+padding: 150px 200px;
+}
+
+.section_text{
+padding: 24px 24px;
+width: 1040px;
+display: inline-block;
+margin: auto;
+
+border: 3px solid #F8BFC7;
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+p{
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.container_three{
+height: 1100px;
+display: flex;
+font-size: 0;
+
+}
+
+.bottle{
+height: 980px;
+width: 285px;
+vertical-align: top;
+margin: auto;
+display: inline-block;
+font-size: 15px;
+}
+
+h3{
+padding: 48px;
+display: inline-block;
+vertical-align: top;
+font-size: 25px;
+}
+
+.container_four{
+height: 500px;
+display: flex;
+vertical-align: top;
+}
+
+.description{
+width: 1040px;
+height: 280px;
+
+border: 3px solid #F8BFC7;
+box-sizing: border-box;
+border-radius: 20px;
+margin: auto;
+display: flex;
+
+}
+
+.glass{
+display: block;
+padding: 30px 80px;
+}
+
+.description_text{
+padding: 30px;
+width: 700px;
+height: 200px;
+font-size: 25px;
+
+}
+
+.footer_container{
+height: 140px;
+background-color: #F8BFC7;
+}
+
+.footer_inner{
+height: 40px;
+width: 1340px;
+padding: 50px;
+display: flex;
+justify-content: space-between;
+text-transform: lowercase;
+}
+.footer_text{
+font-size: 50px;
+color: white;
+}
+
+a.footer_a{
+display: block;
+text-decoration: none;
+color: white;
+font-size: 50px;
+}
